@@ -1,0 +1,47 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Surjith Vijayakumar",
+      "email": "surjith@gmail.com",
+      "mobile": "123123123",
+      "batch": "B33",
+      "batchtype": "Week Days",
+      "profession": "Employee",
+      "status": "Activei",
+      "": "status"
+    },
+    {
+      "id": "2",
+      "name": "Divahar",
+      "email": "divahar@gmail.com",
+      "mobile": "32154987",
+      "batch": "B33",
+      "batchtype": "Week Ends",
+      "profession": "Student",
+      "status": "true",
+      "": "status"
+    },
+    {
+      "name": "Kiran Sharma",
+      "email": "kiran@gmail.com",
+      "mobile": "7859641562",
+      "batch": "B38",
+      "batchtype": "Week Days",
+      "profession": "Students",
+      "id": "PyR3T59",
+      "": "on",
+      "status": "Activ"
+    },
+    {
+      "name": "Abhinanth Shivan",
+      "email": "abhananth@gmail.com",
+      "mobile": "8795412360",
+      "batch": "B33",
+      "batchtype": "Week Days",
+      "profession": "Employee",
+      "id": "FqnoYpd",
+      "status": "Activen"
+    }
+  ]
+}

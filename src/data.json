@@ -1,0 +1,21 @@
+[{
+    "id": "1",
+    "name": "Surjith",
+    "email": "surjith@gmail.com",
+    "mobile": "123123123",
+    "batch": "B33",
+    "batchtype": "Week Days",
+    "profession": "Employee",
+    "status": true
+},
+{
+    "id": "2",
+    "name": "Divahar",
+    "email": "divahar@gmail.com",
+    "mobile": "32154987",
+    "batch": "B33",
+    "batchtype": "Week Ends",
+    "profession": "Student",
+    "status": false
+}
+]
