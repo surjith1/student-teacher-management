@@ -4,7 +4,6 @@ import { Button } from '@mui/material';
 import SaveIcon from '@mui/icons-material/Save';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
-import Switch from '@mui/material/Switch';
 const EditStudent = ({students,setStudents}) => {
     let navigate=useNavigate();
     let {id}=useParams();
@@ -19,7 +18,7 @@ const EditStudent = ({students,setStudents}) => {
         status:"",
     });
     let {name,email,mobile,batch,batchtype,profession,status} = student;
-
+console.log(status);
     const onChangeHandle = e=>{
         setStudent({...student,[e.target.name]: e.target.value})
     }
@@ -38,6 +37,7 @@ const EditStudent = ({students,setStudents}) => {
     // const handleToggle = (status) => {
         
     // }
+    
    return (<>
        <h1>Edit Students</h1>
        <div className="add-student">
@@ -62,8 +62,8 @@ const EditStudent = ({students,setStudents}) => {
            </div>
            <div className='form-group'>
            
-           <TextField id="status" label="Status" variant="outlined" name="status" fullWidth onChange={e=>onChangeHandle(e)} value={status ? "Active" : "InActive"} />
-           
+           <TextField id="status" label="Status" variant="outlined" name="status" fullWidth onChange={e=>onChangeHandle(e)} value={status} />
+        
    </div>
            
           

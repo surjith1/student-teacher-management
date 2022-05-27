@@ -16,6 +16,8 @@ const AllStudents = () => {
      let navigate = useNavigate();
   
      let [students,setStudents] = useState([]);
+     
+     
      useEffect(()=>{
        loadStudents()
      },[])
@@ -27,7 +29,6 @@ const AllStudents = () => {
          await axios.delete(`http://localhost:3001/students/${id}`)
          loadStudents();
      }
-
 
     return (
         <div>
@@ -60,7 +61,7 @@ const AllStudents = () => {
                 <TableCell align="center">{row.batch}</TableCell>
                 <TableCell align="center">{row.batchtype}</TableCell>
                 <TableCell align="center">{row.profession}</TableCell>
-                <TableCell align="center">{row.status ?<p style={{color:"green"} }>Active</p> : <p style={{color:"red"}}>InActive</p>}</TableCell>
+                <TableCell align="center">{row.status==="Active" ? <p style={{color:"green"}}>Active</p> : <p style={{color:"red"}}>InActive</p>}</TableCell>
                 <TableCell align="center"><Button variant="outlined" color="primary" startIcon={<EditIcon />} onClick={()=>navigate(`/edit-student:${row.id}`)}>Edit</Button> 
                 {/*onClick={()=>navigate(`/edit-student:${index}`)}*/}
                 <Button variant="outlined" color="primary" startIcon={<DeleteIcon />}  onClick={()=>deleteStudent(row.id)}>Delete</Button>

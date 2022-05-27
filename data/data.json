@@ -8,8 +8,7 @@
       "batch": "B33",
       "batchtype": "Week Days",
       "profession": "Employee",
-      "status": "Activei",
-      "": "status"
+      "status": "Active"
     },
     {
       "id": "2",
@@ -19,8 +18,7 @@
       "batch": "B33",
       "batchtype": "Week Ends",
       "profession": "Student",
-      "status": "true",
-      "": "status"
+      "status": "Active"
     },
     {
       "name": "Kiran Sharma",
@@ -29,9 +27,8 @@
       "batch": "B38",
       "batchtype": "Week Days",
       "profession": "Students",
-      "id": "PyR3T59",
-      "": "on",
-      "status": "Activ"
+      "id": "3",
+      "status": "InActive"
     },
     {
       "name": "Abhinanth Shivan",
@@ -40,8 +37,8 @@
       "batch": "B33",
       "batchtype": "Week Days",
       "profession": "Employee",
-      "id": "FqnoYpd",
-      "status": "Activen"
+      "id": "4",
+      "status": "InActive"
     },
     {
       "name": "jasvanth",
@@ -50,7 +47,8 @@
       "batch": "B38",
       "batchtype": "Week End",
       "profession": "Students",
-      "id": "2L2eWtq"
+      "id": "5",
+      "status": "Active"
     }
   ]
 }
